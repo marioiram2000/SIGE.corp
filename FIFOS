@@ -1,0 +1,4 @@
+1. Compilamos los archivos
+2. Borramos la pipe (FIFO)
+3. Ejecutamos el crear desde la terminal
+4. Ejecutamos el escribir desde la terminal
