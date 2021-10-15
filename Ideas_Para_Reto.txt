@@ -1,0 +1,19 @@
+
+						3P STUDIO
+
+- Usar la empresa que estamos desarrollando para EIE como base para este reto:
+	La empresa en cuestión '3P Studio', es una empresa dedicada a al diseño e impresion de modelos 3D.
+
+- Detectar que necesidades en cuanto a erp y crm que podria necesitar una empresa de este tipo y comprovar si Odoo es una opción viable para este proyecto
+
+- Lista de app para Odoo que nos vendrian bien
+	- Gestión de clientes
+	- Gestión de proyectos
+	- Contabilidad, facturacion, gastos
+	- CRM
+	- Chat en directo
+	- Inventario
+	- Produción y fabricación
+	- Pago Paypal
+
+
