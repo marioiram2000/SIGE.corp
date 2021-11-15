@@ -1,12 +1,22 @@
 Mario:
-En el 4 son 15 hilos por el bucle?
+
 
 
 
 
 Airam:
 
+print("Deportistas participantes: \n")
+    query = "select Deportista.nombre, altura, peso, edad, Equipo.nombre, medalla from Participacion, Deportista, Equipo where '" + str(id_evento) + "' = id_evento "
+    query += "and Participacion.id_deportista = Deportista.id_deportista and Participacion.id_equipo = Equipo.id_equipo order by Deportista.nombre;"
 
+    cursor.execute(query)
+
+    contResultDep = 1
+    for row in cursor:
+        print(str(contResultDep) + ". " + str(row[0]) + "\n\t-Altura:" + str(row[1]) + "\n\t-Peso:" + str(
+            row[2]) + "\n\t-Edad:" + str(row[3]) + "\n\t-Equipo:" + str(row[4]) + "\n\t-Medalla:" + str(row[5]) + "\n")
+        contResultDep += 1
 
 
 
